@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <CheckBox
+        android:id="@+id/cbBloating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bloating" />
+
+    <CheckBox
+        android:id="@+id/cbPain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pain" />
+
+    <CheckBox
+        android:id="@+id/cbBleeding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bleeding" />
+
+    <CheckBox
+        android:id="@+id/cbDischarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Discharge" />
+
+    <CheckBox
+        android:id="@+id/cbMoody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Moody" />
+
+    <CheckBox
+        android:id="@+id/cbHeadache"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Headache" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel" />
+</LinearLayout>

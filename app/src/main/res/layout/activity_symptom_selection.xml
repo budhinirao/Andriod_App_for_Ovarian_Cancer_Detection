@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <CheckBox
+        android:id="@+id/cbBloating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bloating" />
+
+    <CheckBox
+        android:id="@+id/cbPain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pain" />
+    <CheckBox
+        android:id="@+id/cbBleeding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bleeding" />
+    <CheckBox
+        android:id="@+id/cbDischarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Discharge" />
+    <CheckBox
+        android:id="@+id/cbMoody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Moody" />
+    <CheckBox
+        android:id="@+id/cbHeadache"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Headache" />
+
+
+    <!-- Add more CheckBoxes for other symptoms as needed -->
+
+    <EditText
+        android:id="@+id/etNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="24dp"
+        android:padding="12dp"
+        android:hint="Additional note (optional)"
+        android:inputType="textMultiLine"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:layout_alignParentStart="true"/>
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save Symptoms"
+            android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+</LinearLayout>

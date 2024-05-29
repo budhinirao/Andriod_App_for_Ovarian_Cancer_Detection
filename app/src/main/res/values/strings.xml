@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">calender</string>
+    <string name="back" />
+    <string name="forward"><![CDATA[->]]></string>
+    <string name="bacK"><![CDATA[<-]]></string>
+    <string name="backward"><![CDATA[<-]]></string>
+    <string name="calendar">Calendar</string>
+    <string name="chart">Chart</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Add other strings as needed -->
+
+
+</resources>
